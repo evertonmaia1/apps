@@ -1,8 +1,8 @@
 <?php 
-$username = "username"; 
-$password = "password"; 
-$hostname = "endpoint-rds"; 
-$dbname = "dbname";
+$username = "teste"; 
+$password = "teste"; 
+$hostname = "teste"; 
+$dbname = "teste";
 
 //conexao com o banco de dados
 $dbhandle = mysql_connect($hostname, $username, $password) or die("Nao foi possivel conectar ao MySQL"); 
